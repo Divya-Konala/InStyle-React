@@ -1,6 +1,6 @@
-import "../styles/Loader.css"
+import "../styles/Loading.css";
 
-const Loader = () => {
+const Loading = () => {
   return (
     <div style={{ textAlign: "center" }}>
       <div className="lds-facebook">
@@ -12,4 +12,4 @@ const Loader = () => {
   );
 };
 
-export default Loader;
+export default Loading;

@@ -13,7 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import Loader from "./loader";
+import Loading from "./Loading";
 
 const ProductsCatalog = () => {
   const navigate = useNavigate();
@@ -25,7 +25,7 @@ const ProductsCatalog = () => {
   }
 
   if(loading){
-    return <Loader/>
+    return <Loading/>
   }
 
   return (

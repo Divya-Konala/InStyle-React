@@ -25,7 +25,7 @@ InStyle is an elegant web application that showcases a collection of ladies' occ
 
 6. **ProductsCatalog.jsx**: Renders a catalog of products in a grid layout.
 
-7. **Loader.jsx**: A simple loading spinner component for showing loading states.
+7. **Loading.jsx**: A simple loading rectangular animated boxes component for showing loading states.
 
 8. **Store.jsx**: Contains the Redux store, action creators, reducers, and API calls using Axios to fetch products and product details.
 

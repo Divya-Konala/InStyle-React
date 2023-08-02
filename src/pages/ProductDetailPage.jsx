@@ -9,7 +9,6 @@ import {
   Card,
   CardBody,
   CardFooter,
-  Flex,
   Heading,
   Image,
   Stack,
@@ -17,7 +16,7 @@ import {
 } from "@chakra-ui/react";
 
 import "../styles/ProductDetailsPage.css";
-import Loader from "../components/loader";
+import Loading from "../components/Loading";
 
 const ProductDetailPage = () => {
   let params = useParams();
@@ -30,7 +29,7 @@ const ProductDetailPage = () => {
   }, [prodCode]);
 
   if (loading) {
-    return <Loader/>;
+    return <Loading/>
   }
 
   return (
