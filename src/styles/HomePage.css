@@ -1,0 +1,19 @@
+.poster img{
+    margin: auto;
+}
+.ProductsCatalog{
+    margin: 20px 0px 50px;
+}
+.ProductsCatalog img{
+    height: 300px;
+    margin: auto;
+}
+
+.ProductsCatalog .chakra-button__group{
+    margin: auto;
+}
+
+.ProductsCatalog .chakra-card{
+    margin: auto;
+    width: 100%;
+}

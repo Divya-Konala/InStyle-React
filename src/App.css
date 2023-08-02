@@ -1,0 +1,11 @@
+.App{
+  padding-top: 100px;
+}
+main{
+  margin: 0px 100px;
+}
+@media screen and (max-width: 768px){
+  main{
+    margin: 0px 0px;
+  }
+}
