@@ -3,6 +3,9 @@
 ### Description:
 InStyle is an elegant web application that showcases a collection of ladies' occasion wedding dresses. Users can browse through a wide range of dresses and view product details
 
+### Deployment Link:
+Access the application at `https://in-style-react.vercel.app/`.
+
 ### Technologies Used:
 - React.js for front-end development
 - Redux for state management
@@ -34,9 +37,8 @@ InStyle is an elegant web application that showcases a collection of ladies' occ
 
 2. Ensure you have the required API key and host for the rapidAPI requests.
 
-3. Start the development server using `npm start`.
+3. Start the development server using `npm run dev`.
 
-4. Access the application at `http://localhost:3000/`.
 
 ### Note:
 - Ensure you have a stable internet connection to fetch products and details from the external API.
